@@ -32,9 +32,9 @@ export default function RootLayout({
       {/* <CssBaseline /> */}
       <body className={`dark:bg-black !overflow-x-hidden`}>
         <Providers >
-          <Header />
+          {/* <Header /> */}
           {children}
-          <Footer />
+          {/* <Footer /> */}
           <ScrollToTop />
         </Providers>
       </body>
