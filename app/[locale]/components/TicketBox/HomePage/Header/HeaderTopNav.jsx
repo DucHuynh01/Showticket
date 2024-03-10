@@ -20,13 +20,13 @@ export default function HeaderTopNav() {
           <p className='scale-105 duration-150 hover:text-green-400'>LOG IN</p>
           <p className='scale-105 duration-150 hover:text-green-400'> | </p>
           <p className='scale-105 duration-150 hover:text-green-400'>SIGN UP</p>
-          <div>
+          {/* <div>
             <FormControl>
               <Select
                 inputProps={{ 'aria-label': 'Without label' }}
                 displayEmpty
                 defaultValue=''
-                style={{ padding: '0px'}}
+                style={{ padding: '0px', border: 'none'}}
               >
                 <MenuItem value='' className='p-2'>
                   <ListItemIcon>
@@ -48,7 +48,7 @@ export default function HeaderTopNav() {
                 </MenuItem>
               </Select>
             </FormControl>
-          </div>
+          </div> */}
           <div>
             <CreateEvent></CreateEvent>
           </div>
